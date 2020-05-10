@@ -16,7 +16,7 @@ def resize_image(image):
 
 
 
-'''
+
 while (True):
     ret, image = vid_capture.read()
 
@@ -25,4 +25,3 @@ while (True):
     cv2.imshow("Camera", fr.predict(image))
     if cv2.waitKey(1) & 0XFF == ord('x'):
         break
-'''
